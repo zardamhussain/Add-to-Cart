@@ -26,6 +26,7 @@ button.addEventListener('click', () => {
     if(inputField.value == '') return;
     push(itemsInDB, inputField.value);
     inputField.value = "";
+    inputField.focus();
 })
 
 function addItemToList(id, item) {
